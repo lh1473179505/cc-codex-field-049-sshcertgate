@@ -1,0 +1,25 @@
+{
+  "cas": [
+    {
+      "name": "user-ca",
+      "pubkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIL4E17/hNPZaoOpIl5hiNupkiJRot7AQzpEica3LqRKB user-ca",
+      "allowed_cert_types": [
+        "user"
+      ],
+      "allowed_principals": null,
+      "max_ttl_seconds": 3456000
+    },
+    {
+      "name": "host-ca",
+      "pubkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPUkheLm4I5baf2mqSEx4glgWgSVDGQiwwSGwGaKSDgZ host-ca",
+      "allowed_cert_types": [
+        "host"
+      ],
+      "allowed_principals": null,
+      "max_ttl_seconds": 3456000
+    }
+  ],
+  "revoked_serials": [
+    99
+  ]
+}
